@@ -1,0 +1,38 @@
+html{
+    background-color: #fff;
+}
+.navbar{
+    background-color: #ad0e0e; 
+    display: flex;
+    height: 55px;
+}
+.spigot{
+    background-color: darkorchid;
+    display: flex;
+    width: 150px;
+    height: 55px;
+    left: 30px;
+    top: 30px;
+    align-items: center;
+}
+#s-col1{
+    max-width: 50%;
+}
+.s-col2{
+    padding-right: 34em;
+    font-family:'Courier New',monospace;
+    font-size: 1.26em;
+    color:#fff;
+    text-align : center;
+}
+.menu{
+    top: 30px;
+    font-family:'Courier New',monospace;
+    list-style : none;
+    display: flex;
+    margin : 0 1em;   
+}
+nav a{
+    text-decoration: none;
+    color:#fff;
+}
