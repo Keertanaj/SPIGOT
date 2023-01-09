@@ -2,12 +2,13 @@ html{
     background-color: #fff;
 }
 .navbar{
-    background-color: #ad0e0e; 
     display: flex;
-    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#fff; 
 }
 .spigot{
-    background-color: darkorchid;
+    background-color: #9400d3;
     display: flex;
     width: 150px;
     height: 55px;
@@ -16,26 +17,23 @@ html{
     align-items: center;
 }
 #s-col1{
-    max-width: 50%;
+    max-width: 50px;
 }
 .s-col2{
-    padding-right: 34em;
     font-family:'Courier New',monospace;
-    font-size: 1.26em;
+    font-size: 1.5em;
     color:#fff;
     text-align : center;
 }
 .menu{
-    top: 30px;
     font-family:'Courier New',monospace;
     list-style : none;
     display: flex;
-    margin : 0 1em;   
+    font-size: 1em; 
 }
 #background{
     background: #800080;
     width: 100%;
-    height: 500px;
     justify-content: center;
     text-align: center;
 }
@@ -48,8 +46,9 @@ html{
     justify-content: center;
     text-align: center;
     color: #fff;
-    padding-right: 5em;
-    padding-left: 5em;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 nav a{
     text-decoration: none;
