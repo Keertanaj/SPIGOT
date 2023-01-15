@@ -240,7 +240,8 @@ b{
 .party{
     flex-direction: column;  
 }
-.p1{
+.p1,
+.p5{
     max-width: 100%;
     padding-left: 0em;
 }
@@ -250,6 +251,21 @@ b{
     max-width: 100%;
     display: block;
     border: none;
+}
+.p7,
+.p8{
+    max-width: 100%;
+}
+.buildit,
+.promoteit,
+.maintainit{
+    padding-top:none;
+    max-width: 100%;
+    position: absolute;   
+}
+.nav-links{
+    display: flex;
+    color:#800080;
 }
 .logo{
     display: text;
@@ -261,12 +277,10 @@ b{
 }
 .menu { 
     display:none;
-    position: absolute;
     background-color:#fff;
     right: 0;
     left: 0;
     text-align: center;
-    padding: 16px 0;
 }
 .menu li + li {
     margin-top: 12px;
