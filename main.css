@@ -209,6 +209,27 @@ b{
 .writing{
     font-size: 1em;
 }
+.p9,
+.p10,
+.p11,
+.p12{
+    flex: 1 1 0;
+    border-top: 4px solid #dcdcdc;
+    border-left: 4px solid #dcdcdc;
+    border-bottom: 4px solid #dcdcdc;
+    padding: 1%;
+    position: relative;
+}
+.p13{
+    flex: 2 1 0;
+}
+.p14{
+    flex: 1 1 0;
+    background: #36454f;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width: 900px) {
 .party{
