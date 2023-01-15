@@ -25,6 +25,17 @@ html{
     color:#fff;
     text-align : center;
 }
+input[type=checkbox]{
+    display: none;
+} 
+.hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+.logo{
+    display: none;
+}
 .menu{
     font-family:'Courier New',monospace;
     list-style : none;
@@ -58,12 +69,7 @@ html{
     background: #dcdcdc;
     padding: 5%;
 }
-.p2 {
-    flex: 1 1 0;
-    border-left: 4px solid #dcdcdc;
-    border-bottom: 4px solid #dcdcdc;
-    padding: 5%;
-}
+.p2,
 .p3 {
     flex: 1 1 0;
     border-left: 4px solid #dcdcdc;
@@ -94,20 +100,37 @@ html{
     align-items: center;
     text-align: center;
 }
+.buildit,
+.promoteit,
+.maintainit{
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#36454f;
+    flex: 1 1 0;
+    padding: 10%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.text{
+    font-size: 0.9rem;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.p2:hover .buildit,
+.p3:hover .promoteit,
+.p4:hover .maintainit{
+    opacity: 1;
+}
 nav a:hover,
     nav a:focus{
     color: #800080;
-}
-input[type=checkbox]{
-    display: none;
-} 
-.hamburger{
-    display: none;
-    font-size: 24px;
-    user-select: none;
-}
-.logo{
-    display: none;
 }
 a{
     text-decoration: none;
