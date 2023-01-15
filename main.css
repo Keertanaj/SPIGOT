@@ -178,6 +178,20 @@ input[type=checkbox]{
     font-size: 1.8em;
     color:#36454f;
 }
+#img-7{
+    max-width: 55%;
+    display: flex;
+}
+.author{
+    font-size: 0.7em;
+}
+#dartboard{
+    max-width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
 nav a:hover,
     nav a:focus{
     color: #800080;
