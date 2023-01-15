@@ -162,7 +162,22 @@ input[type=checkbox]{
 #img-6:hover .hands{
     opacity: 1;
 }
-
+.p7{
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color:#36454f;
+    max-width: 20%;
+    margin: 2em;
+}
+.p8{
+    display: flex;
+    max-width: 50%;
+    align-items: center;
+    font-size: 1.8em;
+    color:#36454f;
+}
 nav a:hover,
     nav a:focus{
     color: #800080;
