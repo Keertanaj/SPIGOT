@@ -128,6 +128,41 @@ input[type=checkbox]{
 .p4:hover .maintainit{
     opacity: 1;
 }
+#img-1,
+#img-2,
+#img-3,
+#img-4,
+#img-5,
+#img-6{
+    max-width: 100%;
+    position: relative;
+}
+.utah,
+.canyon,
+.forest,
+.fireflies,
+.running,
+.hands{
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#36454f;
+    padding-left: 10%;
+    padding-right: 10%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#img-1:hover .utah,
+#img-2:hover .canyon,
+#img-3:hover .forest,
+#img-4:hover .fireflies,
+#img-5:hover .running,
+#img-6:hover .hands{
+    opacity: 1;
+}
+
 nav a:hover,
     nav a:focus{
     color: #800080;
