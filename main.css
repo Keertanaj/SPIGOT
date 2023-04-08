@@ -6,7 +6,6 @@ html{
     align-items: center;
     justify-content: space-between;
     background-color:#fff; 
-    justify-content: space-between;
 }
 .spigot{
     background-color: #9400d3;
@@ -37,15 +36,25 @@ input[type=checkbox]{
 .logo{
     display: none;
 }
+.button{
+    background: #dcdcdc;
+    color: #800080;
+    border-color:#800080;
+}
+.button:hover{
+    background: #800080;
+    color: #fff;
+}
 .menu{
     font-family:'Courier New',monospace;
     list-style : none;
     display: flex;
     font-size: 1em; 
+    margin: 0 1em;
 }
 #background{
     background: #800080;
-    width: 100%;
+    max-width: 100%;
     justify-content: center;
     text-align: center;
 }
@@ -68,21 +77,26 @@ input[type=checkbox]{
 .p1{
     flex: 2 1 0;
     background: #dcdcdc;
-    padding: 5%;
+    padding: 7%;
+    color:#36454f;
 }
 .p2,
 .p3 {
     flex: 1 1 0;
     border-left: 4px solid #dcdcdc;
     border-bottom: 4px solid #dcdcdc;
-    padding: 5%;
+    padding: 7%;
+    padding-top: 20%;
+    position: relative;
 }
 .p4 {
     flex: 1 1 0;
     border-left: 4px solid #dcdcdc;
     border-right: 4px solid #dcdcdc;
     border-bottom: 4px solid #dcdcdc;
-    padding: 5%;
+    padding: 7%;
+    padding-top: 20%;
+    position: relative;
 }
 .p5{
     padding: 4%;
@@ -94,12 +108,6 @@ input[type=checkbox]{
     font-size: 1.5em;
     padding: 4%;
     color:#36454f;
-}
-#wd{
-    max-width: 90%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 .buildit,
 .promoteit,
@@ -115,7 +123,8 @@ input[type=checkbox]{
     left: 0;
     right: 0;
 }
-.text{
+.text,
+.text-it{
     font-size: 0.9rem;
     padding-top: 40%;
     padding-bottom: 40%;
@@ -189,6 +198,12 @@ input[type=checkbox]{
 #dartboard{
     max-width: 100%;
 }
+#wd{
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .box{
     display: flex;
     justify-content: space-between;
@@ -260,9 +275,10 @@ b{
 .buildit,
 .promoteit,
 .maintainit{
-    padding-top:none;
+    padding:none;
     max-width: 100%;
-    position: absolute;   
+    position: absolute;  
+    background-color:#36454f;
 }
 .nav-links{
     display: flex;
@@ -272,7 +288,6 @@ b{
     display: text;
 }
 .nav-links{
-    padding-left: 40rem;
     display: flex;
     color:#800080;
 }
@@ -282,6 +297,7 @@ b{
     right: 0;
     left: 0;
     text-align: center;
+    justify-content: space-between;
 }
 .menu li + li {
     margin-top: 12px;
